@@ -10,25 +10,26 @@ body {
     color:white;
     display: flex;
     justify-content: center;
-}
-
-.left-head, .right-head {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 64px;
-    padding: 30px;
-    margin-bottom: 100px;
-    flex-shrink: 0;
+    height: 500px;
 }
 
-.left-head {
-    margin-left: 100px;
-    max-width: 375px;
+.top-head {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
 }
 
-.right-head {
-    margin-right: 100px;
+.bot-head {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 68%;
+}
+
+.h-container {
+    margin-right: auto;
+    width: 38%;
 }
 
 .logo {
@@ -73,7 +74,7 @@ a {
     display: flex;
     justify-content: center;
     background-color: gray;
-    padding: 88px;
+    padding: 100px 150px;
 }
 
 .body {
@@ -92,18 +93,20 @@ a {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
-    gap: 50px;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
 }
 
 .pic-info {
     max-width: 150px;
-    margin-bottom: 100px
+    margin-bottom: 100px;
 }
 
 .pics {
-    width: 150px;
+    max-width: 150px;
     height: 150px;
     border: 3px solid #3882F6;
     border-radius: 10px;
