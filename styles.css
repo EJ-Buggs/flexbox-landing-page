@@ -107,3 +107,20 @@ a {
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
+
+.mid-bod {
+    background-color: #e5e7eb;
+    padding: 120px 230px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
