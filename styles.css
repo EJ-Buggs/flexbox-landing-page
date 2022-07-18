@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header {
@@ -123,4 +124,23 @@ a {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
+}
+
+.bot-bod {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px;
+    border-radius: 5px;
+    margin: 100px 200px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-f {
+    border-color: white;
+    display: flex;
 }
